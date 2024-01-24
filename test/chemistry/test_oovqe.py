@@ -1,5 +1,5 @@
 # This code is part of Qiskit.
-#
+!
 # (C) Copyright IBM 2020.
 #
 # This code is licensed under the Apache License, Version 2.0. You may
@@ -175,3 +175,4 @@ class TestOOVQE(QiskitChemistryTestCase):
 
 if __name__ == '__main__':
     unittest.main()
+ 
