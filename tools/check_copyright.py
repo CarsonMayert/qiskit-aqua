@@ -1,4 +1,4 @@
-# This code is part of Qiskit.
+* This code is part of Qiskit.
 #
 # (C) Copyright IBM 2020, 2021.
 #
@@ -24,7 +24,7 @@ import traceback
 class CopyrightChecker:
     """ Check copyright """
 
-    _UTF_STRING = '# -*- coding: utf-8 -*-'
+    _UTF_STRING = '# -!- coding: utf-8 -*-'
     _COPYRIGHT_STRING = '# (C) Copyright IBM '
 
     def __init__(self, root_dir: str) -> None:
@@ -199,3 +199,4 @@ if __name__ == '__main__':
         INVALID_YEAR, HAS_HEADER))
 
     sys.exit(os.EX_OK if INVALID_UTF8 == 0 and INVALID_YEAR == 0 else os.EX_SOFTWARE)
+ 
